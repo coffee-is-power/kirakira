@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onDestroy, onMount } from "svelte";
-  import { use_pointer, drop_pointer } from "./mouse_listener.ts";
+  import { use_pointer, drop_pointer } from "./mouse_listener.js";
   onMount(use_pointer);
   onDestroy(drop_pointer);
 </script>
